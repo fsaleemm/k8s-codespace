@@ -1,4 +1,4 @@
-.PHONY: help all create delete deploy check clean app webv test load-test reset-prometheus reset-grafana jumpbox
+.PHONY: help all create delete
 
 help :
 	@echo "Usage:"

@@ -8,7 +8,7 @@ ARG USERNAME=vscode
 ARG USER_UID=1000
 ARG USER_GID=$USER_UID
 
-# copy the stup scripts to the container
+# copy the setup scripts to the container
 COPY library-scripts/*.sh /scripts/
 COPY local-scripts/*.sh /scripts/
 

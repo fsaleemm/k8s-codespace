@@ -25,10 +25,10 @@
 
 	// add labels
 	"portsAttributes": {
-		"30000": { "label": "Prometheus" },
-		"30080": { "label": "ngsa-app" },
-		"30088": { "label": "WebV" },
-		"32000": { "label": "Grafana" },
+		"30000": { "label": "Front End" },
+		"30080": { "label": "API 1" },
+		"30088": { "label": "API 2" },
+		"32000": { "label": "API 3" },
 	},
 
 	// Install extensions
