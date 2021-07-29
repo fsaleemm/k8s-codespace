@@ -1,6 +1,8 @@
 {
 	"name": "Kind-K3d-in-Docker",
-	"dockerFile": "Dockerfile",
+	//"dockerFile": "Dockerfile",
+
+	"image": "ghcr.io/retaildevcrews/kind:beta",
 
 	// do not change these if you want Docker in Docker support
 	"runArgs": ["--init", "--privileged"],
